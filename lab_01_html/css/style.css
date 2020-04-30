@@ -1,0 +1,31 @@
+.a{
+    color: red;
+    background: pink;
+    text-align: center;
+}
+
+.b{
+    color: blue;
+    font-size: 100px;
+}
+
+/* idの場合は# */
+#c{
+    color: yellow;
+}
+
+.d{
+    background-image: url("../img/1.jpeg");
+    /* 背景画像を使う時は高さが絶対に必要 */
+    height: 400px;
+    /* 繰り返し表示しない */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* 上と同じ短縮版 */
+.d{
+    background-image: url("../img/1.jpeg") no-repeat center center;
+    background-size: cover;
+}
